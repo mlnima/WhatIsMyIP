@@ -1,0 +1,43 @@
+body {
+ background-image: url("http://employersinfosource.com/wp-content/uploads/2014/11/silde-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+}
+
+
+
+@media only screen and (min-width: 767px){
+
+  .App{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 767px;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px){
+
+  .App{
+
+
+    max-width: 1200px;
+  }
+
+
+}

@@ -1,0 +1,73 @@
+.Main{
+  padding-top: 200px;
+  max-width: 320px;
+  background-color: rgba(255,255,255,0.4);
+  .ipAddressTitle{
+    font-size: 20px;
+
+  }
+  .ip{
+font-size:40px;
+    font-weight: bold;
+
+  }
+  .data{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    //border: 1px solid black;
+    grid-gap: 5px;
+
+    .dataTableRow{
+      display: flex;
+      text-align: left;
+      justify-content: space-between;
+      background-color: rgba(0,0,0,0.6);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+      border: 1px solid black;
+      border-radius: 10px;
+      transition:.4s;
+      &:hover{
+        transform: scale(1.1);
+        background-color: black;
+      }
+      p{
+        padding: 5px 15px;
+      }
+
+    }
+  }
+
+}
+
+
+
+@media only screen and (min-width: 767px){
+
+  .Main{
+   min-width: 1200px;
+
+    .ipAddressTitle{
+
+    }
+    h1{
+      font-size:4em;
+    }
+    .data{
+      max-width: 1200px;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      .dataTableRow{
+
+        p{
+
+        }
+
+      }
+    }
+
+  }
+
+}
