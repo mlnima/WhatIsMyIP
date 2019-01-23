@@ -95,5 +95,5 @@ class Main extends Component {
 
 
 export default GoogleApiWrapper({
-    apiKey: ('AIzaSyAEYCD5waZLhtWh21mxspBuR9_9RpCADQA')
+    apiKey: ('')
 })(Main)
